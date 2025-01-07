@@ -1,0 +1,9 @@
+[package]
+name = "bevy-webview-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wry = { version = "0.48.0", features = ["transparent"] }
+bevy = "0.15"
+# bevy = { path = "../bevy" }
